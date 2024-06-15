@@ -1,0 +1,19 @@
+fieldset {
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+textarea {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+form {
+  margin-block-start: 1.5rem;
+}
+
+form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
